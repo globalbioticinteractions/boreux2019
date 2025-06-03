@@ -1,0 +1,94 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://figshare.com/ndownloader/files/18003863",
+    "dcterms:bibliographicCitation" : "Boreux, Virginie; Klein, Alexandra-Maria (2019). Global pollinator database. figshare. Dataset. https://doi.org/10.6084/m9.figshare.9980471.v1",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "flowersVisitedBy",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002623",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "crop",
+        "datatype" : "string"
+      }, {
+        "name" : "type",
+        "titles" : "type",
+        "datatype" : "string"
+      }, {
+        "name" : "season",
+        "titles" : "season",
+        "datatype" : "string"
+      }, {
+        "name" : "diameter",
+        "titles" : "diameter",
+        "datatype" : "string"
+      }, {
+        "name" : "corolla",
+        "titles" : "corolla",
+        "datatype" : "string"
+      }, {
+        "name" : "colour",
+        "titles" : "colour",
+        "datatype" : "string"
+      }, {
+        "name" : "nectar",
+        "titles" : "nectar",
+        "datatype" : "string"
+      }, {
+        "name" : "b.system",
+        "titles" : "b.system",
+        "datatype" : "string"
+      }, {
+        "name" : "s.pollination",
+        "titles" : "s.pollination",
+        "datatype" : "string"
+      }, {
+        "name" : "inflorescence",
+        "titles" : "inflorescence",
+        "datatype" : "string"
+      }, {
+        "name" : "composite",
+        "titles" : "composite",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "visitor",
+        "datatype" : "string"
+      }, {
+        "name" : "guild",
+        "titles" : "guild",
+        "datatype" : "string"
+      }, {
+        "name" : "tongue",
+        "titles" : "tongue",
+        "datatype" : "string"
+      }, {
+        "name" : "body",
+        "titles" : "body",
+        "datatype" : "string"
+      }, {
+        "name" : "sociality",
+        "titles" : "sociality",
+        "datatype" : "string"
+      }, {
+        "name" : "feeding",
+        "titles" : "feeding",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
